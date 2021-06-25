@@ -17,7 +17,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '/login',
+    path: '/login', //登录
     name: 'Login',
     hidden: true,
     component: () => import('@/views/login/index'),
