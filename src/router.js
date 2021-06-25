@@ -24,7 +24,7 @@ const constantRoutes = [
     meta: { title: '登录' }
   },
   {
-    path: '/register',
+    path: '/register', //注册
     name: 'register',
     hidden: true,
     component: () => import('@/views/register/index'),
