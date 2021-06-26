@@ -33,7 +33,7 @@ const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
+    redirect: '/dashboard',//首页
     children: [
       {
         path: 'dashboard',
