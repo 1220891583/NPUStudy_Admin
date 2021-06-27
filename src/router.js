@@ -81,7 +81,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '/exam',
+    path: '/exam', //答题管理
     component: Layout,
     name: 'ExamPage',
     meta: {
