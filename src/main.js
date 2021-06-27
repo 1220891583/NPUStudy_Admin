@@ -8,7 +8,7 @@ import './styles/element-variables.scss'
 
 import '@/styles/index.scss' // global css
 import './icons' // icon
-import NProgress from 'nprogress' // progress bar
+import NProgress from 'nprogress' // progress bar//
 import 'nprogress/nprogress.css' // progress bar style
 
 Vue.use(Element, {

@@ -209,6 +209,7 @@ const constantRoutes = [
         component: () => import('@/views/message/send'),
         name: 'MessageSendPage',
         meta: { title: '通知发送', noCache: true }
+        //通知发送
       }
     ]
   },
@@ -253,6 +254,7 @@ const constantRoutes = [
 
 const router = new Router({
   routes: constantRoutes
+
 })
 
 export {
