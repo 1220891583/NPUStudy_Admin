@@ -196,6 +196,7 @@ const constantRoutes = [
       title: '通知中心',
       icon: 'message'
     },
+    //通知中心
     alwaysShow: true,
     children: [
       {
