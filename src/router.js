@@ -171,7 +171,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '/answer',
+    path: '/answer',//成绩管理
     component: Layout,
     name: 'AnswerPage',
     meta: {
