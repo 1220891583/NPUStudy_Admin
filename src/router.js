@@ -217,7 +217,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '/log',
+    path: '/log',//日志中心
     component: Layout,
     name: 'LogPage',
     meta: {
