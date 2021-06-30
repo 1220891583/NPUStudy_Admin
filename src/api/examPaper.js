@@ -6,4 +6,5 @@ export default {
   edit: query => post('/api/admin/exam/paper/edit', query),
   select: id => post('/api/admin/exam/paper/select/' + id),
   deletePaper: id => post('/api/admin/exam/paper/delete/' + id)
+  //pagelist
 }

@@ -11,4 +11,5 @@ export default {
   changeStatus: id => post('/api/admin/user/changeStatus/' + id),
   deleteUser: id => post('/api/admin/user/delete/' + id),
   selectByUserName: query => post('/api/admin/user/selectByUserName', query)
+  //getUserPageList
 }

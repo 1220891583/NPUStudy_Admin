@@ -5,4 +5,5 @@ export default {
   edit: query => post('/api/admin/task/edit', query),
   select: id => post('/api/admin/task/select/' + id),
   deleteTask: id => post('/api/admin/task/delete/' + id)
+  //pagelist
 }

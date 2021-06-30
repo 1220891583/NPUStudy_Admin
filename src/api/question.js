@@ -5,4 +5,5 @@ export default {
   edit: query => post('/api/admin/question/edit', query),
   select: id => post('/api/admin/question/select/' + id),
   deleteQuestion: id => post('/api/admin/question/delete/' + id)
+  //edit
 }
