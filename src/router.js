@@ -248,7 +248,7 @@ const constantRoutes = [
     ]
   },
   {
-    path: '*',
+    path: '*', //错误页面
     hidden: true,
     component: () => import('@/views/error-page/404'),
     meta: { title: '404', noCache: true }
